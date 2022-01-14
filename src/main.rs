@@ -1,3 +1,5 @@
+mod networking;
+
 fn main() {
-    println!("Hello, world!");
+    networking::p2p::create_p2p();
 }
