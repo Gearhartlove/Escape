@@ -1,5 +1,5 @@
-mod networking;
+use escape::run;
 
 fn main() {
-    networking::p2p::create_p2p();
+    run()
 }
